@@ -14,7 +14,14 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <form>
+                        <div class="mb-3">
+                          <label >Post Title</label>
+                          <input type="email" class="form-control" placeholder="Enter Post Title">
+                        </div>
+                      
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                 </div>
             </div>
         </div>
